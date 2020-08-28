@@ -1,6 +1,5 @@
 class Customer
     attr_accessor :name, :age
-   
     @@all = []
    
     def initialize(name, age)
@@ -45,5 +44,4 @@ class Customer
       end
       oldest_customer
     end
-   
   end
